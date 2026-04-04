@@ -1,0 +1,43 @@
+smart-doc-analyzer/
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── pdf_generator.py
+│   │   ├── document_processor.py
+│   │   └── session_manager.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── nodes.py
+│   │   └── graph.py
+│   └── core/
+│       ├── __init__.py
+│       └── agent_state.py
+├── fonts/
+│   └── DejaVuSans.ttf                  # ← لازم تحطه هنا
+├── archived_reports/                   # هيتكون تلقائياً
+├── .env.example
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+# تثبيت المتطلبات -> pip install -r requirements.txt
+
+# تشغيل التطبيق -> python -m streamlit run src/main.py 
+
+الهيكل الرئيسي
+src/main.py → الواجهة الرئيسية
+src/agents/ → نظام الوكلاء (LangGraph)
+src/utils/ → أدوات المساعدة (PDF, TXT, معالجة الملفات)
+src/config.py → الإعدادات المركزية
+
+التقنيات المستخدمة
+Streamlit
+LangGraph + LangChain
+LlamaParse
+Qdrant (Vector Store)
+Groq (LLM)
+FPDF + arabic-reshaper

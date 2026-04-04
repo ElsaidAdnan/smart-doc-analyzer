@@ -1,0 +1,15 @@
+# requirements.txt
+streamlit
+langgraph
+langchain-groq
+langchain-huggingface
+langchain-qdrant
+llama-parse
+fpdf
+arabic-reshaper
+python-bidi
+python-dotenv
+pandas
+plotly
+qdrant-client
+pydantic

@@ -1,0 +1,56 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+logs/
+
+# Archived reports (generated files)
+archived_reports/
+
+# Fonts (اختياري - لو حجم الخط كبير)
+# fonts/*.ttf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
