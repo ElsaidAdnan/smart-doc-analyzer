@@ -112,7 +112,18 @@ smart-doc-analyzer/
 ---
 
 ## 📸 Screenshots
-(Add screenshots of the application here later)
+
+Explore the system's capabilities through the interface previews below:
+
+| **Main Interface & Docs** | **Agentic Chat & Analysis** |
+| :---: | :---: |
+| <img src="assets/screenshots/screenshot-main.png" width="450" alt="Main Interface"> | <img src="assets/screenshots/screenshot-chat.png" width="450" alt="Chat Interface"> |
+
+| **Dynamic Dashboard** | **Professional Exporting** |
+| :---: | :---: |
+| <img src="assets/screenshots/screenshot-dashboard.png" width="450" alt="Dashboard"> | <img src="assets/screenshots/screenshot-export_main.png" width="450" alt="Export Options"> |
+
+> **Tip:** You can view detailed export samples for [TXT Reports](assets/screenshots/screenshot-export_txt.png) and [PDF Reports](assets/screenshots/screenshot-export_pdf.png) directly in the assets folder.
 
 ---
 
